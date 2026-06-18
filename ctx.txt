@@ -1,0 +1,354 @@
+You are a world-class startup website designer and senior product designer.
+
+Design and build a premium, venture-backed quality website for Nextgen Research Lab and Infrastructure Development Private Limited (nextgenrl.com).
+
+The website must feel comparable to modern deep-tech, health-tech, and venture-backed startups such as Stripe, Notion, Linear, Neuralink, Tempus AI, Palantir, and modern YC companies.
+
+DO NOT create a generic corporate website.
+
+DO NOT use stock medical website templates.
+
+DO NOT make it look like a hospital website.
+
+The visual identity should communicate:
+
+* Deep Technology
+* Research & Innovation
+* Healthcare Intelligence
+* Clinical Trust
+* Modern Startup
+* Future-facing Technology
+* Premium Product Design
+
+---
+
+COMPANY
+
+Nextgen Research Lab and Infrastructure Development Private Limited
+
+Website:
+nextgenrl.com
+
+Founder:
+Vatsalya Bhadaurya
+
+Email:
+[vatsalya@nextgenrl.com](mailto:vatsalya@nextgenrl.com)
+
+Company Description:
+
+Nextgen Research Lab and Infrastructure Development Pvt. Ltd. is a research-driven technology company focused on solving high-impact societal challenges through artificial intelligence, embedded systems, healthcare technology, public health analytics, IoT, and deep-tech innovation.
+
+The company develops indigenous technologies designed for real-world deployment, particularly in healthcare and public-sector applications.
+
+---
+
+PRIMARY PRODUCT
+
+MaaKosh
+
+Tagline:
+
+Protecting Mothers and Newborns Through Indigenous Innovation
+
+Alternative Tagline:
+
+AI-Enabled Maternal and Neonatal Monitoring for Early Risk Detection
+
+Mission:
+
+To improve maternal and neonatal outcomes through continuous monitoring, early risk awareness, and accessible healthcare technology.
+
+Vision:
+
+To build a future where no maternal or neonatal complication goes unnoticed due to delayed detection.
+
+---
+
+DESIGN STYLE
+
+Use:
+
+* Dark mode first
+* Premium typography
+* Large whitespace
+* Smooth animations
+* Apple-level visual hierarchy
+* Stripe-quality layouts
+* High-end SaaS design
+* Subtle motion
+* Glassmorphism used minimally
+* Modern gradients
+
+Color Palette:
+
+Primary:
+#08111F
+#0F172A
+
+Accent:
+#00D4AA
+#38BDF8
+
+Neutral:
+White
+Light Gray
+
+Avoid:
+
+* Bright hospital blue
+* Generic bootstrap styling
+* Overly colorful interfaces
+
+---
+
+SITE STRUCTURE
+
+SECTION 1
+
+HERO
+
+Headline:
+
+Protecting Mothers & Newborns Through Early Risk Intelligence
+
+Subheadline:
+
+AI-enabled maternal and neonatal monitoring systems designed to bridge the gap between routine observations and early intervention.
+
+CTA Buttons:
+
+Explore MaaKosh
+Contact Us
+
+Right side:
+
+Premium 3D renders of:
+
+* Neonatal Patch
+* Smart Belly Band
+
+Animated floating motion.
+
+---
+
+SECTION 2
+
+THE PROBLEM
+
+Present as modern statistics cards.
+
+Key messaging:
+
+Maternal and neonatal complications often become severe because warning signs emerge between routine observations and remain unnoticed until intervention becomes difficult.
+
+Include:
+
+* India records nearly 26 million births annually
+* Maternal and neonatal complications remain major global health challenges
+* Early detection remains one of the largest gaps in care delivery
+
+Use modern animated counters.
+
+---
+
+SECTION 3
+
+THE MAAKOSH ECOSYSTEM
+
+Display as premium product cards.
+
+Card 1
+
+Smart Belly Band
+
+Maternal monitoring
+Physiological observation
+Continuous awareness
+
+Card 2
+
+Neonatal Patch
+
+Wearable newborn monitoring
+Temperature observation
+Physiological signal monitoring
+
+Card 3
+
+Intelligence Platform
+
+Clinical dashboard
+Parent application
+AI insights
+
+---
+
+SECTION 4
+
+PROGRESS & VALIDATION
+
+Timeline Component
+
+Concept Development
+
+↓
+
+Prototype Development
+
+↓
+
+Working Devices Built
+
+↓
+
+Supervised Testing at Dr. Ram Manohar Lohia Hospital (Delhi)
+
+↓
+
+Clinical Feedback Integration
+
+↓
+
+Pilot Preparation
+
+↓
+
+Regulatory Readiness
+
+Make timeline visually impressive.
+
+---
+
+SECTION 5
+
+WHY MAAKOSH
+
+Three premium feature blocks
+
+Continuous Monitoring
+
+Moving beyond episodic healthcare observations.
+
+AI-Driven Intelligence
+
+Transforming physiological signals into actionable awareness.
+
+Public Health Impact
+
+Bridging individual monitoring and population-level health intelligence.
+
+---
+
+SECTION 6
+
+REAL WORLD VALIDATION
+
+Highlight:
+
+Dr. Ram Manohar Lohia Hospital (RML), Delhi
+
+Content:
+
+MaaKosh prototypes have undergone supervised testing and observational validation in real clinical environments, helping evaluate wearability, comfort, feasibility, and workflow integration.
+
+Use premium case-study style layout.
+
+---
+
+SECTION 7
+
+PUBLIC HEALTH INTELLIGENCE
+
+Highlight additional initiatives:
+
+* AI-driven maternal and child health analytics
+* Population-scale health intelligence systems
+* Malnutrition risk analytics
+* Public health decision support systems
+* Early warning systems
+
+Include architecture visualization.
+
+---
+
+SECTION 8
+
+ACHIEVEMENTS
+
+Include:
+
+* Working prototypes developed
+* Hospital testing completed
+* Prototype-to-pilot roadmap established
+* Patent preparation initiated
+* Selected for next stage of NASSCOM AI Innovation Challenge
+* Public health analytics architecture developed
+* Strategic discussions with healthcare and innovation ecosystem stakeholders
+
+Display as animated cards.
+
+---
+
+SECTION 9
+
+TEAM
+
+Founder
+
+Vatsalya Bhadaurya
+
+Short Bio:
+
+Founder and technologist focused on AI, embedded systems, healthcare innovation, and public health intelligence.
+
+Advisor
+
+Anuj Batra
+
+Strategic Advisor
+
+Former leadership experience across:
+
+* Aditya Birla ecosystem
+* Tata International
+
+---
+
+SECTION 10
+
+CONTACT
+
+Simple premium contact section.
+
+Email:
+[vatsalya@nextgenrl.com](mailto:vatsalya@nextgenrl.com)
+
+Website:
+nextgenrl.com
+
+Company:
+Nextgen Research Lab and Infrastructure Development Pvt. Ltd.
+
+---
+
+IMPORTANT POSITIONING
+
+The website should position MaaKosh as:
+
+NOT:
+A gadget
+A wearable device
+A medical product
+
+INSTEAD:
+
+An early-risk intelligence platform for maternal and neonatal healthcare.
+
+The overall feeling should be:
+
+"We are building the future of maternal and neonatal health intelligence."
+
+The website should feel like a startup that is preparing for pilots, partnerships, incubation, grants, healthcare collaborations, and future fundraising.
+
+Every section should look polished enough that an investor, hospital administrator, government official, incubator manager, or healthcare professional immediately perceives credibility and seriousness.

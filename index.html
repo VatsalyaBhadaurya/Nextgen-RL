@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nextgen Research Lab</title>
+  <meta name="description" content="MaaKosh by Nextgen Research Lab — AI-enabled maternal and neonatal monitoring systems built to detect risk before it becomes an emergency. Indigenous deep-tech for the future of healthcare." />
+  <meta name="theme-color" content="#08111F" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nextgen Research Lab — MaaKosh" />
+  <meta property="og:description" content="Protecting Mothers &amp; Newborns Through Early Risk Intelligence." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nextgenrl.com" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ambient background -->
+  <div class="bg-aurora" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="brand" aria-label="Nextgen Research Lab home">
+        <span class="brand__mark">
+          <img src="logo.jpg" alt="MaaKosh logo" class="brand__logo" />
+        </span>
+        <span class="brand__text">Nextgen<span class="brand__rl">RL</span></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#problem">Problem</a>
+        <a href="#ecosystem">Ecosystem</a>
+        <a href="#progress">Progress</a>
+        <a href="#validation">Validation</a>
+        <a href="#team">Team</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--ghost nav__cta">Contact</a>
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ 1 · HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__copy reveal">
+        <span class="eyebrow"><span class="dot"></span> Indigenous Deep-Tech · Healthcare Intelligence</span>
+        <h1 class="hero__title">
+          Protecting Mothers &amp; Newborns Through
+          <span class="grad-text">Early Risk Intelligence</span>
+        </h1>
+        <p class="hero__sub">
+          AI-enabled maternal and neonatal monitoring systems designed to bridge the gap
+          between routine observations and early intervention so warning signs are seen
+          while they can still be acted upon.
+        </p>
+        <div class="hero__cta">
+          <a href="#ecosystem" class="btn btn--primary">Explore MaaKosh <span class="arrow">→</span></a>
+          <a href="#contact" class="btn btn--ghost">Contact Us</a>
+        </div>
+        <div class="hero__trust">
+          <span>Supervised testing at</span>
+          <strong>Dr. Ram Manohar Lohia Hospital, Delhi</strong>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="orbit">
+          <div class="orbit__glow"></div>
+
+          <!-- Smart Belly Band — real device -->
+          <div class="device device--band float-a">
+            <img src="BellyBandFront-removebg-preview.png" alt="MaaKosh Smart Belly Band" class="device__photo" />
+            <span class="device__label">Smart Belly Band</span>
+          </div>
+
+          <!-- Neonatal Patch — real device -->
+          <div class="device device--patch float-b">
+            <img src="NeonatalPatchFront-removebg-preview.png" alt="MaaKosh Neonatal Patch" class="device__photo" />
+            <span class="device__label">Neonatal Patch</span>
+          </div>
+
+          <!-- floating signal particles -->
+          <span class="spark s1"></span><span class="spark s2"></span>
+          <span class="spark s3"></span><span class="spark s4"></span>
+        </div>
+      </div>
+
+      <a href="#problem" class="scroll-hint" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ 2 · THE PROBLEM ============ -->
+    <section class="section" id="problem">
+      <div class="section__head reveal">
+        <span class="kicker">The Problem</span>
+        <h2>Danger hides in the gap between observations.</h2>
+        <p class="lead">
+          Maternal and neonatal complications often become severe because warning signs emerge
+          <em>between</em> routine observations — and remain unnoticed until intervention becomes difficult.
+        </p>
+      </div>
+
+      <div class="stats">
+        <article class="stat-card reveal">
+          <div class="stat-card__num" data-count="26" data-suffix="M">0</div>
+          <h3>Births every year in India</h3>
+          <p>Nearly 26 million new lives begin annually — each one a window where early awareness matters most.</p>
+        </article>
+        <article class="stat-card reveal" style="--d:.08s">
+          <div class="stat-card__num" data-count="1" data-prefix="#" data-suffix="">0</div>
+          <h3>Global health challenge</h3>
+          <p>Maternal and neonatal complications remain among the largest unsolved challenges in global health.</p>
+        </article>
+        <article class="stat-card reveal" style="--d:.16s">
+          <div class="stat-card__num" data-count="100" data-suffix="%">0</div>
+          <h3>Avoidable with earlier detection</h3>
+          <p>Early detection remains one of the single largest gaps in care delivery worldwide.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 3 · THE MAAKOSH ECOSYSTEM ============ -->
+    <section class="section" id="ecosystem">
+      <div class="section__head reveal">
+        <span class="kicker">The MaaKosh Ecosystem</span>
+        <h2>One continuous system — from the body to the dashboard.</h2>
+        <p class="lead">Not a device. An early-risk intelligence platform spanning sensing, signal, and insight.</p>
+      </div>
+
+      <div class="eco-grid">
+        <article class="eco-card reveal">
+          <div class="eco-card__media">
+            <img src="BellyBandFront-removebg-preview.png" alt="MaaKosh Smart Belly Band" />
+          </div>
+          <h3>Smart Belly Band</h3>
+          <p class="eco-card__role">Maternal monitoring</p>
+          <ul>
+            <li>Continuous physiological observation</li>
+            <li>Comfort-first wearable form factor</li>
+            <li>Always-on maternal awareness</li>
+          </ul>
+        </article>
+
+        <article class="eco-card eco-card--feature reveal" style="--d:.08s">
+          <div class="eco-card__media">
+            <img src="NeonatalPatchFront-removebg-preview.png" alt="MaaKosh Neonatal Patch" />
+          </div>
+          <h3>Neonatal Patch</h3>
+          <p class="eco-card__role">Newborn monitoring</p>
+          <ul>
+            <li>Gentle wearable for newborns</li>
+            <li>Temperature observation</li>
+            <li>Physiological signal monitoring</li>
+          </ul>
+        </article>
+
+        <article class="eco-card reveal" style="--d:.16s">
+          <div class="eco-card__media">
+            <svg viewBox="0 0 120 90" width="150" height="112" aria-hidden="true">
+              <rect x="6" y="8" width="108" height="64" rx="6" fill="#0B1424" stroke="#EC4899" stroke-width="1.5"/>
+              <path d="M14 56 l16 -16 12 9 14 -22 16 14 12 -10 16 12" fill="none" stroke="#F472B6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="42" cy="49" r="3" fill="#F5B301"/><circle cx="56" cy="27" r="3" fill="#F5B301"/>
+              <rect x="14" y="60" width="20" height="5" rx="2.5" fill="#EC4899" opacity="0.5"/>
+              <rect x="40" y="60" width="34" height="5" rx="2.5" fill="#EC4899" opacity="0.3"/>
+              <path d="M48 80 h24 M60 72 v8" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Intelligence Platform</h3>
+          <p class="eco-card__role">Clinical &amp; parent software</p>
+          <ul>
+            <li>Clinical monitoring dashboard</li>
+            <li>Parent companion application</li>
+            <li>AI-driven insights &amp; awareness</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 4 · PROGRESS & VALIDATION ============ -->
+    <section class="section" id="progress">
+      <div class="section__head reveal">
+        <span class="kicker">Progress &amp; Validation</span>
+        <h2>From concept to clinical readiness.</h2>
+        <p class="lead">A deliberate path — built, tested in a real hospital, and shaped by clinical feedback.</p>
+      </div>
+
+      <ol class="timeline">
+        <li class="reveal"><span class="timeline__node"></span><div class="timeline__body"><h3>Concept Development</h3><p>Defining the early-risk problem and the intelligence-first approach.</p></div></li>
+        <li class="reveal"><span class="timeline__node"></span><div class="timeline__body"><h3>Prototype Development</h3><p>Translating concept into functional, wearable hardware.</p></div></li>
+        <li class="reveal"><span class="timeline__node"></span><div class="timeline__body"><h3>Working Devices Built</h3><p>Operational MaaKosh prototypes producing real physiological signals.</p></div></li>
+        <li class="reveal is-key"><span class="timeline__node"></span><div class="timeline__body"><h3>Supervised Testing — RML Hospital, Delhi</h3><p>Observational validation inside a real clinical environment.</p></div></li>
+        <li class="reveal"><span class="timeline__node"></span><div class="timeline__body"><h3>Clinical Feedback Integration</h3><p>Refining comfort, wearability, and workflow fit from frontline input.</p></div></li>
+        <li class="reveal"><span class="timeline__node"></span><div class="timeline__body"><h3>Pilot Preparation</h3><p>Scaling toward structured, real-world pilot deployments.</p></div></li>
+        <li class="reveal"><span class="timeline__node"></span><div class="timeline__body"><h3>Regulatory Readiness</h3><p>Aligning toward standards and approvals for wider deployment.</p></div></li>
+      </ol>
+    </section>
+
+    <!-- ============ 5 · WHY MAAKOSH ============ -->
+    <section class="section" id="why">
+      <div class="section__head reveal">
+        <span class="kicker">Why MaaKosh</span>
+        <h2>Intelligence, not just instruments.</h2>
+      </div>
+      <div class="why-grid">
+        <article class="why-card reveal">
+          <span class="why-card__num">01</span>
+          <h3>Continuous Monitoring</h3>
+          <p>Moving beyond episodic healthcare observations toward an unbroken view of maternal and neonatal wellbeing.</p>
+        </article>
+        <article class="why-card reveal" style="--d:.08s">
+          <span class="why-card__num">02</span>
+          <h3>AI-Driven Intelligence</h3>
+          <p>Transforming raw physiological signals into clear, actionable awareness — before a situation escalates.</p>
+        </article>
+        <article class="why-card reveal" style="--d:.16s">
+          <span class="why-card__num">03</span>
+          <h3>Public Health Impact</h3>
+          <p>Bridging individual monitoring and population-level health intelligence for systemic, lasting change.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 6 · REAL WORLD VALIDATION ============ -->
+    <section class="section" id="validation">
+      <div class="case reveal">
+        <div class="case__tag"><span class="dot"></span> Real-World Validation</div>
+        <div class="case__grid">
+          <div class="case__left">
+            <h2>Tested where it matters most.</h2>
+            <p class="case__hospital">Dr. Ram Manohar Lohia Hospital <span>(RML), Delhi</span></p>
+            <p>
+              MaaKosh prototypes have undergone supervised testing and observational validation
+              in real clinical environments — helping evaluate wearability, comfort, feasibility,
+              and workflow integration alongside practising clinicians.
+            </p>
+          </div>
+          <div class="case__right">
+            <div class="case__metric"><strong>Wearability</strong><span>Evaluated on real users</span></div>
+            <div class="case__metric"><strong>Comfort</strong><span>Frontline feedback loop</span></div>
+            <div class="case__metric"><strong>Feasibility</strong><span>Clinical-environment tested</span></div>
+            <div class="case__metric"><strong>Workflow Fit</strong><span>Integrated with care routines</span></div>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure><img src="babytest1.jpg" alt="MaaKosh Neonatal Patch placed on a newborn during supervised testing" loading="lazy" /><figcaption>Neonatal Patch fitted on a newborn</figcaption></figure>
+          <figure><img src="babytest.jpg" alt="Clinician applying the MaaKosh Neonatal Patch with a parent present" loading="lazy" /><figcaption>Applied alongside clinicians &amp; family</figcaption></figure>
+          <figure><img src="babytest3.jpg" alt="Close-up of the MaaKosh Neonatal Patch secured on a newborn" loading="lazy" /><figcaption>Comfort &amp; wearability assessment</figcaption></figure>
+        </div>
+        <p class="gallery__note">Supervised observational testing · Dr. Ram Manohar Lohia Hospital, Delhi</p>
+      </div>
+    </section>
+
+    <!-- ============ 7 · PUBLIC HEALTH INTELLIGENCE ============ -->
+    <section class="section" id="public-health">
+      <div class="section__head reveal">
+        <span class="kicker">Public Health Intelligence</span>
+        <h2>From one mother to a whole population.</h2>
+        <p class="lead">Beyond the device, we build systems that turn health signals into population-scale decision support.</p>
+      </div>
+
+      <div class="ph-layout">
+        <ul class="ph-list reveal">
+          <li><span class="tick">→</span> AI-driven maternal &amp; child health analytics</li>
+          <li><span class="tick">→</span> Population-scale health intelligence systems</li>
+          <li><span class="tick">→</span> Malnutrition risk analytics</li>
+          <li><span class="tick">→</span> Public health decision support systems</li>
+          <li><span class="tick">→</span> Early warning systems</li>
+        </ul>
+
+        <div class="arch reveal" aria-label="System architecture">
+          <div class="arch__row">
+            <div class="arch__node">Wearable Sensing<small>Band · Patch</small></div>
+          </div>
+          <div class="arch__flow"></div>
+          <div class="arch__row">
+            <div class="arch__node">Signal &amp; Edge<small>Acquisition</small></div>
+            <div class="arch__node">AI Intelligence<small>Risk models</small></div>
+          </div>
+          <div class="arch__flow"></div>
+          <div class="arch__row">
+            <div class="arch__node arch__node--accent">Clinical Dashboard<small>Care teams</small></div>
+            <div class="arch__node arch__node--accent">Population Intelligence<small>Public health</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8 · ACHIEVEMENTS ============ -->
+    <section class="section" id="achievements">
+      <div class="section__head reveal">
+        <span class="kicker">Achievements</span>
+        <h2>Momentum, validated.</h2>
+      </div>
+      <div class="ach-grid">
+        <div class="ach reveal">Working prototypes developed</div>
+        <div class="ach reveal" style="--d:.05s">Hospital testing completed</div>
+        <div class="ach reveal" style="--d:.1s">Prototype-to-pilot roadmap established</div>
+        <div class="ach reveal" style="--d:.15s">Patent preparation initiated</div>
+        <div class="ach ach--highlight reveal" style="--d:.2s">Selected for next stage — NASSCOM AI Innovation Challenge</div>
+        <div class="ach reveal" style="--d:.25s">Public health analytics architecture developed</div>
+        <div class="ach reveal" style="--d:.3s">Strategic discussions across healthcare &amp; innovation ecosystem</div>
+      </div>
+    </section>
+
+    <!-- ============ 9 · TEAM ============ -->
+    <section class="section" id="team">
+      <div class="section__head reveal">
+        <span class="kicker">Team</span>
+        <h2>Builders behind the mission.</h2>
+      </div>
+      <div class="team-grid">
+        <article class="member reveal">
+          <div class="member__avatar" aria-hidden="true">VB</div>
+          <div>
+            <h3>Vatsalya Bhadaurya</h3>
+            <p class="member__role">Founder &amp; Technologist</p>
+            <p>Focused on AI, embedded systems, healthcare innovation, and public health intelligence — building indigenous technology designed for real-world deployment.</p>
+          </div>
+        </article>
+        <article class="member reveal" style="--d:.1s">
+          <div class="member__avatar member__avatar--alt" aria-hidden="true">AB</div>
+          <div>
+            <h3>Anuj Batra</h3>
+            <p class="member__role">Strategic Advisor</p>
+            <p>Former leadership experience across the Aditya Birla ecosystem and Tata International — guiding strategy, partnerships, and scale.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 10 · CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="contact reveal">
+        <span class="kicker">Contact</span>
+        <h2>Let's build the future of maternal &amp; neonatal health.</h2>
+        <p class="lead">For pilots, partnerships, incubation, grants, and healthcare collaborations.</p>
+        <a class="contact__email" href="mailto:vatsalya@nextgenrl.com">vatsalya@nextgenrl.com</a>
+        <div class="contact__meta">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="brand">
+        <span class="brand__text">Nextgen<span class="brand__rl">RL</span></span>
+      </div>
+      <p>An early-risk intelligence platform for maternal and neonatal healthcare.</p>
+      <small>© <span id="year"></span> Nextgen Research Lab and Infrastructure Development Pvt. Ltd. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
