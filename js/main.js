@@ -24,7 +24,7 @@
   panel.setAttribute('aria-label', 'Mobile');
   panel.innerHTML = [
     ['#problem', 'Problem'], ['#ecosystem', 'Ecosystem'], ['#progress', 'Progress'],
-    ['#validation', 'Validation'], ['#team', 'Team'], ['#contact', 'Contact']
+    ['#validation', 'Validation'], ['#team', 'Team'], ['#faq', 'FAQ'], ['#contact', 'Contact']
   ].map(function (l) { return '<a href="' + l[0] + '">' + l[1] + '</a>'; }).join('');
   document.body.appendChild(panel);
 

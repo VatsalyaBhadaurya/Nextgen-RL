@@ -88,12 +88,50 @@
         "isPartOf": { "@id": "https://nextgenrl.com/#website" },
         "about": { "@id": "https://nextgenrl.com/#organization" },
         "audience": { "@type": "MedicalAudience", "audienceType": "Clinicians, hospitals, public health" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://nextgenrl.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is MaaKosh?",
+            "acceptedAnswer": { "@type": "Answer", "text": "MaaKosh is an AI-enabled early-risk intelligence platform for maternal and neonatal healthcare. It combines a Smart Belly Band for maternal monitoring, a Neonatal Patch for newborns, and a clinical dashboard that surfaces warning signs before they become emergencies. It's an intelligence system, not a single gadget." }
+          },
+          {
+            "@type": "Question",
+            "name": "How is MaaKosh different from a regular monitoring device?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Conventional devices report numbers at a moment in time. MaaKosh continuously observes physiological signals and uses AI to turn them into actionable awareness — closing the dangerous gap between routine observations where complications often go unnoticed." }
+          },
+          {
+            "@type": "Question",
+            "name": "Has MaaKosh been clinically tested?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Working prototypes have undergone supervised, observational testing at Dr. Ram Manohar Lohia (RML) Hospital, Delhi — evaluating wearability, comfort, feasibility, and workflow fit alongside practising clinicians." }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is MaaKosh built for?",
+            "acceptedAnswer": { "@type": "Answer", "text": "For clinicians and hospitals who need continuous awareness, for parents who want peace of mind, and for public-health systems that turn individual health signals into population-scale decision support." }
+          },
+          {
+            "@type": "Question",
+            "name": "What stage is the company at?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Nextgen Research Lab has built working prototypes, completed hospital testing, initiated patent preparation, and been selected for the next stage of the NASSCOM AI Innovation Challenge. The platform is moving from prototype toward structured real-world pilots and regulatory readiness." }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I partner or pilot MaaKosh?",
+            "acceptedAnswer": { "@type": "Answer", "text": "We work with hospitals, incubators, grant programs, and healthcare partners on pilots and collaborations. Reach us at vatsalya@nextgenrl.com." }
+          }
+        ]
       }
     ]
   }
   </script>
 </head>
 <body>
+  <a href="#hero" class="skip-link">Skip to content</a>
+
   <!-- ambient background -->
   <div class="bg-aurora" aria-hidden="true"></div>
   <div class="bg-grid" aria-hidden="true"></div>
@@ -103,7 +141,7 @@
     <div class="nav__inner">
       <a href="#hero" class="brand" aria-label="Nextgen Research Lab home">
         <span class="brand__mark">
-          <img src="logo.jpg" alt="MaaKosh logo" class="brand__logo" />
+          <img src="logo.jpg" alt="MaaKosh logo" class="brand__logo" width="40" height="40" decoding="async" />
         </span>
         <span class="brand__text">Nextgen<span class="brand__rl">RL</span></span>
       </a>
@@ -114,6 +152,7 @@
         <a href="#progress">Progress</a>
         <a href="#validation">Validation</a>
         <a href="#team">Team</a>
+        <a href="#faq">FAQ</a>
       </nav>
 
       <a href="#contact" class="btn btn--ghost nav__cta">Contact</a>
@@ -153,13 +192,13 @@
 
           <!-- Smart Belly Band — real device -->
           <div class="device device--band float-a">
-            <img src="BellyBandFront-removebg-preview.png" alt="MaaKosh Smart Belly Band" class="device__photo" />
+            <img src="BellyBandFront-removebg-preview.png" alt="MaaKosh Smart Belly Band" class="device__photo" fetchpriority="high" decoding="async" />
             <span class="device__label">Smart Belly Band</span>
           </div>
 
           <!-- Neonatal Patch — real device -->
           <div class="device device--patch float-b">
-            <img src="NeonatalPatchFront-removebg-preview.png" alt="MaaKosh Neonatal Patch" class="device__photo" />
+            <img src="NeonatalPatchFront-removebg-preview.png" alt="MaaKosh Neonatal Patch" class="device__photo" decoding="async" />
             <span class="device__label">Neonatal Patch</span>
           </div>
 
@@ -215,7 +254,7 @@
       <div class="eco-grid">
         <article class="eco-card reveal">
           <div class="eco-card__media">
-            <img src="BellyBandFront-removebg-preview.png" alt="MaaKosh Smart Belly Band" />
+            <img src="BellyBandFront-removebg-preview.png" alt="MaaKosh Smart Belly Band maternal monitoring wearable" loading="lazy" decoding="async" />
           </div>
           <h3>Smart Belly Band</h3>
           <p class="eco-card__role">Maternal monitoring</p>
@@ -228,7 +267,7 @@
 
         <article class="eco-card eco-card--feature reveal" style="--d:.08s">
           <div class="eco-card__media">
-            <img src="NeonatalPatchFront-removebg-preview.png" alt="MaaKosh Neonatal Patch" />
+            <img src="NeonatalPatchFront-removebg-preview.png" alt="MaaKosh Neonatal Patch newborn monitoring wearable" loading="lazy" decoding="async" />
           </div>
           <h3>Neonatal Patch</h3>
           <p class="eco-card__role">Newborn monitoring</p>
@@ -328,9 +367,9 @@
         </div>
 
         <div class="gallery">
-          <figure><img src="babytest1.jpg" alt="MaaKosh Neonatal Patch placed on a newborn during supervised testing" loading="lazy" /><figcaption>Neonatal Patch fitted on a newborn</figcaption></figure>
-          <figure><img src="babytest.jpg" alt="Clinician applying the MaaKosh Neonatal Patch with a parent present" loading="lazy" /><figcaption>Applied alongside clinicians &amp; family</figcaption></figure>
-          <figure><img src="babytest3.jpg" alt="Close-up of the MaaKosh Neonatal Patch secured on a newborn" loading="lazy" /><figcaption>Comfort &amp; wearability assessment</figcaption></figure>
+          <figure><img src="babytest1.jpg" alt="MaaKosh Neonatal Patch placed on a newborn during supervised testing" loading="lazy" decoding="async" /><figcaption>Neonatal Patch fitted on a newborn</figcaption></figure>
+          <figure><img src="babytest.jpg" alt="Clinician applying the MaaKosh Neonatal Patch with a parent present" loading="lazy" decoding="async" /><figcaption>Applied alongside clinicians &amp; family</figcaption></figure>
+          <figure><img src="babytest3.jpg" alt="Close-up of the MaaKosh Neonatal Patch secured on a newborn" loading="lazy" decoding="async" /><figcaption>Comfort &amp; wearability assessment</figcaption></figure>
         </div>
         <p class="gallery__note">Supervised observational testing · Dr. Ram Manohar Lohia Hospital, Delhi</p>
       </div>
@@ -411,6 +450,42 @@
             <p>Former leadership experience across the Aditya Birla ecosystem and Tata International — guiding strategy, partnerships, and scale.</p>
           </div>
         </article>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="section__head reveal">
+        <span class="kicker">FAQ</span>
+        <h2>Questions, answered.</h2>
+        <p class="lead">What MaaKosh is, how it's been tested, and where it's headed.</p>
+      </div>
+
+      <div class="faq">
+        <details class="faq__item reveal" open>
+          <summary>What is MaaKosh?</summary>
+          <p>MaaKosh is an AI-enabled early-risk intelligence platform for maternal and neonatal healthcare. It combines a Smart Belly Band for maternal monitoring, a Neonatal Patch for newborns, and a clinical dashboard that surfaces warning signs before they become emergencies. It's an intelligence system, not a single gadget.</p>
+        </details>
+        <details class="faq__item reveal">
+          <summary>How is MaaKosh different from a regular monitoring device?</summary>
+          <p>Conventional devices report numbers at a moment in time. MaaKosh continuously observes physiological signals and uses AI to turn them into actionable awareness — closing the dangerous gap between routine observations where complications often go unnoticed.</p>
+        </details>
+        <details class="faq__item reveal">
+          <summary>Has MaaKosh been clinically tested?</summary>
+          <p>Yes. Working prototypes have undergone supervised, observational testing at Dr. Ram Manohar Lohia (RML) Hospital, Delhi — evaluating wearability, comfort, feasibility, and workflow fit alongside practising clinicians.</p>
+        </details>
+        <details class="faq__item reveal">
+          <summary>Who is MaaKosh built for?</summary>
+          <p>For clinicians and hospitals who need continuous awareness, for parents who want peace of mind, and for public-health systems that turn individual health signals into population-scale decision support.</p>
+        </details>
+        <details class="faq__item reveal">
+          <summary>What stage is the company at?</summary>
+          <p>Nextgen Research Lab has built working prototypes, completed hospital testing, initiated patent preparation, and been selected for the next stage of the NASSCOM AI Innovation Challenge. The platform is moving from prototype toward structured real-world pilots and regulatory readiness.</p>
+        </details>
+        <details class="faq__item reveal">
+          <summary>How can I partner or pilot MaaKosh?</summary>
+          <p>We work with hospitals, incubators, grant programs, and healthcare partners on pilots and collaborations. Reach us at <a href="mailto:vatsalya@nextgenrl.com">vatsalya@nextgenrl.com</a>.</p>
+        </details>
       </div>
     </section>
 

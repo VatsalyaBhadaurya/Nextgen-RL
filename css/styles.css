@@ -38,6 +38,14 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+.skip-link {
+  position: fixed; top: -100px; left: 16px; z-index: 100;
+  background: var(--pink); color: #fff; font-weight: 600;
+  padding: 10px 18px; border-radius: 10px;
+  transition: top .25s var(--ease, ease);
+}
+.skip-link:focus { top: 16px; outline: 2px solid #fff; }
+
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
 body {
@@ -450,6 +458,39 @@ em { font-style: normal; color: var(--text); }
 .nav__panel.open { display: flex; }
 .nav__panel a { padding: 14px 0; color: var(--muted); border-bottom: 1px solid var(--border); font-size: 1.05rem; }
 .nav__panel a:last-child { border-bottom: 0; }
+
+/* ============================================================
+   FAQ
+   ============================================================ */
+.faq { max-width: 860px; display: flex; flex-direction: column; gap: 14px; }
+.faq__item {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  padding: 4px 24px;
+  transition: border-color .3s var(--ease), background .3s var(--ease);
+}
+.faq__item[open] { border-color: var(--border-bright); background: var(--surface-2); }
+.faq__item summary {
+  list-style: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: space-between; gap: 18px;
+  padding: 20px 0;
+  font-family: 'Sora', 'Inter', sans-serif; font-weight: 600; font-size: 1.08rem;
+  letter-spacing: -0.01em; color: var(--text);
+}
+.faq__item summary::-webkit-details-marker { display: none; }
+.faq__item summary::after {
+  content: '+'; flex: 0 0 auto;
+  width: 28px; height: 28px; border-radius: 8px;
+  display: grid; place-items: center;
+  font-size: 1.3rem; font-weight: 400; line-height: 1;
+  color: var(--pink); border: 1px solid var(--border);
+  transition: transform .3s var(--ease), color .3s var(--ease), border-color .3s var(--ease);
+}
+.faq__item[open] summary::after { content: '\2212'; transform: rotate(180deg); border-color: var(--border-bright); }
+.faq__item p { color: var(--muted); padding: 0 0 22px; max-width: 70ch; }
+.faq__item a { color: var(--pink); border-bottom: 1px solid rgba(236,72,153,.4); }
+.faq__item a:hover { color: var(--rose); }
 
 /* ============================================================
    RESPONSIVE
