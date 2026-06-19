@@ -67,17 +67,42 @@
         "inLanguage": "en"
       },
       {
-        "@type": "Product",
-        "name": "MaaKosh",
-        "brand": { "@id": "https://nextgenrl.com/#organization" },
-        "category": "Maternal & Neonatal Health Technology",
+        "@type": "ItemList",
+        "@id": "https://nextgenrl.com/#maakosh",
+        "name": "MaaKosh — Early-Risk Intelligence Platform",
+        "description": "MaaKosh is an early-risk intelligence platform for maternal and neonatal healthcare — a Smart Belly Band for maternal monitoring, a Neonatal Patch for newborn monitoring, and an AI clinical dashboard that surfaces warning signs early.",
         "url": "https://nextgenrl.com/#ecosystem",
         "image": "https://nextgenrl.com/logo.jpg",
-        "description": "MaaKosh is an early-risk intelligence platform for maternal and neonatal healthcare — a Smart Belly Band for maternal monitoring, a Neonatal Patch for newborn monitoring, and an AI clinical dashboard that surfaces warning signs early.",
-        "hasPart": [
-          { "@type": "Product", "name": "Smart Belly Band", "description": "Comfort-first maternal monitoring wearable for continuous physiological observation." },
-          { "@type": "Product", "name": "Neonatal Patch", "description": "Gentle newborn wearable for temperature and physiological signal monitoring." },
-          { "@type": "Product", "name": "MaaKosh Intelligence Platform", "description": "Clinical dashboard and parent companion app delivering AI-driven risk insights." }
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "MedicalDevice",
+              "name": "Smart Belly Band",
+              "description": "Comfort-first maternal monitoring wearable for continuous physiological observation.",
+              "manufacturer": { "@id": "https://nextgenrl.com/#organization" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "MedicalDevice",
+              "name": "Neonatal Patch",
+              "description": "Gentle newborn wearable for temperature and physiological signal monitoring.",
+              "manufacturer": { "@id": "https://nextgenrl.com/#organization" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Thing",
+              "name": "MaaKosh Intelligence Platform",
+              "description": "Clinical dashboard and parent companion app delivering AI-driven risk insights."
+            }
+          }
         ]
       },
       {
