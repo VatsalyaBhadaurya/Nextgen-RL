@@ -1,0 +1,19 @@
+{
+  "name": "MaaKosh by Nextgen Research Lab",
+  "short_name": "MaaKosh",
+  "description": "AI-enabled maternal and neonatal early-risk intelligence platform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#08111F",
+  "theme_color": "#08111F",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
